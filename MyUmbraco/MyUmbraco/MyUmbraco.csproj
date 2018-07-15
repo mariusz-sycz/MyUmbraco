@@ -572,6 +572,9 @@
     <Content Include="Umbraco\Webservices\TagsAutoCompleteHandler.ashx" />
     <Content Include="Umbraco\Webservices\TreeDataService.ashx" />
     <None Include="Umbraco\Xslt\Web.config" />
+    <Content Include="Views\Amp_Layout.cshtml" />
+    <Content Include="Views\HomePage.cshtml" />
+    <Content Include="Views\Layout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1990,7 +1993,9 @@
     <Content Include="Umbraco_Client\Ui\json2.js" />
     <Content Include="Umbraco_Client\Ui\knockout.js" />
     <Content Include="Umbraco_Client\Ui\knockout.mapping.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
